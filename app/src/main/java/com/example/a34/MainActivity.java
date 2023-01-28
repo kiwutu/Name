@@ -52,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
         String patronymic = Patronymic.getText().toString();
         String phone = Phone.getText().toString();
 
-        if (surname == null) surname = "no surname";
-        if (name == null) name = DataGenerateRandom.genName();
-        if (patronymic == null) patronymic = DataGenerateRandom.genPatronymic();
-        if (phone == null) phone = DataGenerateRandom.genPhoneNumber();
+        if (Surname.getText().toString().isEmpty()) surname =DataGenerateRandom.genSurname();
+        if (Name.getText().toString().isEmpty()) name = DataGenerateRandom.genName();
+        if (Patronymic.getText().toString().isEmpty()) patronymic = DataGenerateRandom.genPatronymic();
+        if (Phone.getText().toString().isEmpty()) phone = DataGenerateRandom.genPhoneNumber();
 
         out = "Surname:" + surname + '\n' +
                 "Name: " + name + '\n' +
