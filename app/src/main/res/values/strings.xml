@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">34</string>
+    <string name="write_your_phone">write your phone</string>
+    <string name="write_your_name">write your name</string>
+    <string name="write_your_surname" >write your surname</string>
+    <string name="write_your_patronymic" >write your patronymic</string>
+
+
+</resources>
